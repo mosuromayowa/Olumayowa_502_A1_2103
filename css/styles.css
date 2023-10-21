@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background: #081b29;
+}
+
+.maincontent {
+  position: relative;
+  width: 100;
+  height: 100vh;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.logo {
+  font-size: 25px;
+  columns: white;
+  padding-left: 60px;
+}
+
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #afc6d9;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.information {
+  margin-left: 8%;
+  margin-top: 15%;
+  padding-bottom: 25px;
+  align-content: center;
+}
+
+.information h1 {
+  font-size: 50px;
+  color: rgb(11, 237, 253);
+  margin-bottom: 20px;
+  text-shadow: purple;
+}
+
+.information h2 {
+  color: #ffffff;
+}
+
+span {
+  color: #afc6d9;
+}
+
+.information p {
+  color: #ffffff;
+  line-height: 22px;
+}
+
+.information a {
+  background: black;
+  padding: 20px 0px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.parent {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  border-radius: 100%;
+  box-shadow: purple;
+}
+
+.information a {
+  font-weight: bold;
+  background-color: #1e90ff;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+footer {
+  background-color: #081b29;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Tablet styles */
+  .maincontent {
+    height: auto;
+  }
+
+  .logo {
+    padding-left: 20px;
+  }
+
+  .parent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .information {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  img {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Mobile styles */
+  .maincontent {
+    height: auto;
+  }
+
+  .logo {
+    padding-left: 20px;
+  }
+
+  .parent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .information {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  img {
+    margin-top: 5%;
+  }
+}
