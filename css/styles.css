@@ -110,27 +110,6 @@ footer {
   margin-top: 20px;
 }
 
- #about-main {
-padding: 80px 40px;
-color: #ffffff;
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-about-col-1 {
-  flex-basis: 35%;
-}
-
-about-col-1 img {
-  width: 100%;
-  border-radius: 15px;
-}
-
-
-
 /*-------------About Section ends here -------------------*/
 @media screen and (max-width: 768px) {
   /* Tablet styles */
@@ -141,7 +120,6 @@ about-col-1 img {
   .logo {
     padding-left: 20px;
   }
-
   .parent {
     flex-direction: column;
     align-items: center;
